@@ -6,6 +6,7 @@ tenha.
 - Maven;
 - Java 8+;
 - IDE de sua preferência (neste projeto foi utilizado o Intellij);
+- Docker (opcional);
 
 ### Execução via IDE: ###
 1) Faça o clone do projeto: **git clone https://github.com/CarlosFernandoXavier/gerador-cpf.git**
