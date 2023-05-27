@@ -9,13 +9,14 @@ public class ConsoleService {
     private Integer setimoDigito;
 
     public void capturarEntrada() {
-        Scanner input= new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Quantos CPF's você quer gerar? ");
-        quantidadeCpfs = Integer.parseInt(input.nextLine());
+        quantidadeCpfs = input.nextInt();
         System.out.println("Digite o valor do 6º  dígito do CPF:");
-        sextoDigito = Integer.parseInt(input.nextLine());
+        sextoDigito = input.nextInt();
         System.out.println("Digite o valor do 7º  dígito do CPF:");
-        setimoDigito = Integer.parseInt(input.nextLine());
+        setimoDigito = input.nextInt();
+        input.close();
     }
 
     public Integer getQuantidadeCpfs() {
