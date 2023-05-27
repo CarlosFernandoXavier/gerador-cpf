@@ -7,7 +7,7 @@ tenha.
 - Java 8+;
 - IDE de sua preferência (neste projeto foi utilizado o Intellij);
 
-### Passos para a execução via IDE: ###
+### Execução via IDE: ###
 1) Faça o clone do projeto: **git clone https://github.com/CarlosFernandoXavier/gerador-cpf.git**
 2) Execute o comando **mvn clean install**;
 3) Execute a classe GeradorCPFTest;
